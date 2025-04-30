@@ -49,7 +49,7 @@ function Navbar() {
             to="/about"
             className={location.pathname === '/about' ? 'active' : ''}
           >
-            Acerca de
+            Nosotros
           </Link>
           {loggedInUser && (
             <div className="user-menu">
@@ -58,7 +58,7 @@ function Navbar() {
               </button>
               {showMenu && (
                 <div className="menu">
-                  <button onClick={handleLogout}>Cerrar Sesión</button>
+                  <button onClick={handleLogout}>pa fuera mi loco</button>
                 </div>
               )}
             </div>

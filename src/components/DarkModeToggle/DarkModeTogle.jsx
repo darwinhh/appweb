@@ -7,7 +7,7 @@ function DarkModeToggle() {
 
   return (
     <button className="dark-mode-toggle" onClick={toggleDarkMode}>
-      {darkMode ? '☀️' : '🌙'}
+      {darkMode ? '🌑' : '🌞'}
     </button>
   );
 }

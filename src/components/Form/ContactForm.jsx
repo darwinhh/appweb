@@ -36,8 +36,8 @@ function ContactForm() {
     // Message validation
     if (!formData.message.trim()) {
       newErrors.message = 'El mensaje es requerido';
-    } else if (formData.message.length < 10) {
-      newErrors.message = 'El mensaje debe tener al menos 10 caracteres';
+    } else if (formData.message.length < 5) {
+      newErrors.message = 'El mensaje debe tener al menos 5 caracteres';
     }
     
     return newErrors;
